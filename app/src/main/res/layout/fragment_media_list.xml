@@ -1,0 +1,32 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipe_refresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="com.cnbitstols.movieland.ui.fragment.DashBoardFragment"
+      >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/icon"
+        android:src="@drawable/moviesland"/>
+    <include layout="@layout/layout_empty_state"/>
+    <include layout="@layout/layout_error_state"/>
+    <include layout="@layout/layout_progress_state"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_sai"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/icon"
+        android:layout_height="match_parent"
+        />
+
+  </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

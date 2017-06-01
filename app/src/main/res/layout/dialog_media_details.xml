@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_large"
+    >
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:gravity="center"
+      android:text="@string/upload_media"
+      android:textColor="@android:color/black"
+      android:textSize="@dimen/title_size"
+      android:textStyle="bold"
+      />
+
+  <EditText
+      android:id="@+id/title_et"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/spacing_medium"
+      android:layout_marginTop="@dimen/spacing_medium"
+      android:hint="@string/title"
+      />
+  <EditText
+      android:id="@+id/description_et"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/description"
+      />
+  <Button
+      android:id="@+id/select_media"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/spacing_medium"
+      android:textColor="@android:color/white"
+      android:background="@color/colorPrimaryDark"
+      android:layout_marginTop="@dimen/spacing_medium"
+      android:text="@string/select_media"
+      />
+</LinearLayout>

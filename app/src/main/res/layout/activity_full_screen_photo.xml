@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_full_screen_photo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cnbit.nimmasarkara.ui.activity.FullScreenPhotoActivity"
+    >
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="?attr/colorPrimary"
+      android:theme="@style/AppTheme.AppBarOverlay"
+      app:popupTheme="@style/AppTheme.PopupOverlay"
+      />
+  <com.cnbitstols.movieland.utils.TouchImageView
+      android:id="@+id/full_screen_photo"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:contentDescription="@string/media_pic"
+      android:scaleType="fitCenter"
+      android:src="@drawable/sai_image"
+      />
+</LinearLayout>

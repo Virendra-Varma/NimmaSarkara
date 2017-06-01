@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="DashboardMenuIcon">
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">120dp</item>
+    <item name="android:adjustViewBounds">true</item>
+    <item name="android:padding">@dimen/spacing_medium</item>
+    <item name="android:layout_margin">@dimen/spacing_small</item>
+    <item name="android:gravity">center_horizontal|bottom</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:textSize">@dimen/sub_heading_size</item>
+  </style>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.cnbit.nimmasarkara.ui.activity.DonateIdolActivity"
+    >
+  <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:id="@+id/activity_donate_idol"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      tools:context="com.cnbitstols.movieland.ui.activity.DonateIdolActivity"
+      >
+    <include layout="@layout/layout_toolbar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/sai_image"
+        android:src="@drawable/donate_a_baba_idol"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/spacing_large"
+        android:text="@string/donate_text"
+        android:textSize="@dimen/body_size"
+        />
+
+    <Button
+        android:id="@+id/donate_idol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/spacing_medium"
+        android:text="@string/donate_an_idol"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        />
+  </LinearLayout>
+</ScrollView>

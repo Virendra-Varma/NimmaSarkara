@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--<color name="colorPrimary">#3F51B5</color>-->
+  <color name="colorPrimary">#577ABE</color>
+  <!--<color name="colorPrimaryDark">#303F9F</color>-->
+  <color name="colorPrimaryDark">#3F4F71</color>
+  <!--<color name="colorAccent">#FF4081</color>-->
+  <color name="colorAccent">#577ABE</color>
+
+  <color name="event_bg_light">#D7B947</color>
+  <color name="event_bg_dark">#968132</color>
+  <color name="event_title">#6F5916</color>
+  <color name="album_title">#A47567</color>
+  <color name="light_grey">#d3d3d3</color>
+  <color name="multi_selection_bg">#855C5C</color>
+
+
+  <color name="landingspagepro">#ffd155</color>
+  <color name="toolbar">#f9c742</color>
+  <color name="floting_action">#25526b</color>
+
+</resources>

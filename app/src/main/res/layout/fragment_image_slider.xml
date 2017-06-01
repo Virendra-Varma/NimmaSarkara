@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/lbl_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   />
+
+
+</RelativeLayout>
+
+
+<!--<relativelayout xmlns:android="http://schemas.android.com/apk..."
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.viewpager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignparentleft="true"
+        android:layout_alignparentright="true">
+
+    </android.support.v4.view.viewpager>
+
+    <textview
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignparenttop="true"
+        android:layout_centerhorizontal="true"
+        android:text="count"/>
+
+    <textview
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/date"
+        android:layout_alignparentleft="true"
+        android:paddingleft="@dimen/activity_horizontal_margin"
+        android:text="title"
+        android:textsize="18sp"
+        android:textstyle="bold"/>
+
+    <textview android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignparentbottom="true"
+        android:layout_alignparentleft="true"
+        android:layout_marginbottom="@dimen/activity_horizontal_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="date"
+        android:textsize="15sp"/>
+
+</relativelayout>-->

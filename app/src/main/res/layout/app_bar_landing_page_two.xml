@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.cnbit.nimmasarkara.ui.activity.LandingPageActivity"
+    >
+
+  <android.support.design.widget.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:theme="@style/AppTheme.AppBarOverlay">
+  </android.support.design.widget.AppBarLayout>
+
+  <include layout="@layout/activity_landingpagepro" />
+  <!--<include layout="@layout/activity_landingpagepro" />-->
+  <include layout="@layout/fab_layout_two"/>
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/fab"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_gravity="bottom|center"
+      android:layout_margin="@dimen/fab_margin"
+      app:srcCompat="@drawable/button_add_sign"
+      />
+
+
+</android.support.design.widget.CoordinatorLayout>

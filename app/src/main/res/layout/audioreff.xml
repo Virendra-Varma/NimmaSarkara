@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="2dp"
+
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:src="@drawable/playicon"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/image"
+                android:layout_height="90dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_toRightOf="@+id/image"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:id="@+id/layoutplay"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/audiotitle"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+           <!--     <Button
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:id="@+id/butplay"
+                    android:layout_below="@+id/audiotitle"
+                    android:background="@drawable/buttonplay"/>
+                    <SeekBar
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekBar"/>-->
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/currentTime"
+                    android:text="00:00:00"
+                    android:textColor="#FFFFFF"
+                    android:padding="5dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:layout_below="@+id/date"
+                    android:text="Harathi Daikunavee oo Baba sigal"
+                    android:layout_marginLeft="11dp"
+                    android:textColor="#363636"
+                    android:layout_marginTop="0dp"
+                    android:layout_toLeftOf="@+id/date"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/audiotitle"
+                    android:textSize="16dp"
+                    />
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:maxLength="10"
+                    android:layout_alignParentRight="true"
+                    android:text="2017-01-04 18:52:40"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/layoutplay"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Harish"
+                        android:drawablePadding="8dp"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/user"
+                        android:textStyle="bold"
+                        android:textSize="13dp"
+                        android:layout_marginLeft="13dp"
+                        android:id="@+id/postedby"
+
+                        android:layout_below="@+id/butplay"
+                        android:layout_toRightOf="@+id/image"
+                        android:layout_toEndOf="@+id/image" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/postedby"
+                        android:layout_marginLeft="30dp"
+                        android:text="12"
+                        android:id="@+id/likes"
+                        android:drawablePadding="3dp"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/like_filled"
+                        />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
